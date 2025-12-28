@@ -37,12 +37,8 @@ multirun/
 
 # Data (raw/processed)
 data/**
-
-# ...but DO keep the directories themselves (needed for negation to work)
 !data/
 !data/**/
-
-# ...and DO keep DVC metafiles
 !data/**/*.dvc
 
 # macOS
