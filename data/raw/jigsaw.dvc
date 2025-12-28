@@ -1,0 +1,6 @@
+outs:
+- md5: a7a16c2b3eba9449e0583e13f494c571.dir
+  size: 74565204
+  nfiles: 3
+  hash: md5
+  path: jigsaw
