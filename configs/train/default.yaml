@@ -1,0 +1,19 @@
+seed: 42
+max_epochs: 5
+batch_size: 128
+num_workers: 0
+lr: 3e-4
+weight_decay: 0.0
+
+precision: "16-mixed"
+accelerator: "auto"
+devices: "auto"
+
+threshold: 0.5
+log_every_n_steps: 20
+
+checkpoint:
+  dirpath: "artifacts/checkpoints"
+  monitor: "val/micro_f1"
+  mode: "max"
+  save_top_k: 1

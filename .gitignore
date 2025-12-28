@@ -47,3 +47,6 @@ data/**
 # VSCode / JetBrains
 .vscode/
 .idea/
+
+node_modules/
+**/.cache/

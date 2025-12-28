@@ -1,0 +1,9 @@
+command: textcnn
+
+defaults:
+  - data: default
+  - model: textcnn
+  - train: default
+  - logging: mlflow
+  - infer: default
+  - _self_

@@ -1,0 +1,22 @@
+dataset:
+  hf_name: "thesofakillers/jigsaw-toxic-comment-classification-challenge"
+  text_col: "comment_text"
+  label_cols:
+    ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
+
+paths:
+  raw_dir: "data/raw/jigsaw"
+  processed_dir: "data/processed"
+  vocab_path: "data/processed/vocab.json"
+
+split:
+  seed: 42
+  train_size: 0.70
+  val_size: 0.15
+  test_size: 0.15
+
+text:
+  lowercase: true
+  max_len: 200
+  vocab_size: 50000
+  min_freq: 2
