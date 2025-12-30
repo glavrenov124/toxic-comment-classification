@@ -44,7 +44,7 @@ poetry run mlflow server
 ```
 UI будет доступен по адресу http://127.0.0.1:8080
 
-##Data management (DVC)
+## Data management (DVC)
 
 Данные не хранятся в git — используется DVC. На старте обучения код пытается выполнить dvc pull для путей data/raw/jigsaw и data/processed. Если DVC remote доступен, можно подтянуть данные вручную:
 ```bash
@@ -61,6 +61,7 @@ poetry run python -m toxic_comment_classification.commands command=baseline
 ```bash
 poetry run python -m toxic_comment_classification.commands command=textcnn
 ```
+
 
 
 
