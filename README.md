@@ -11,3 +11,9 @@
 
 Источник: HuggingFace датасет  
 `thesofakillers/jigsaw-toxic-comment-classification-challenge`
+
+Шаги:
+git clone https://github.com/glavrenov124/toxic-comment-classification
+cd toxic-comment-classification
+
+
