@@ -36,15 +36,16 @@ poetry run pre-commit run -a
 poetry run mlflow server
 ```
 
-##Train
+## Train
 
-###Тренировка baseline
+### Тренировка baseline
 ```bash
 poetry run python -m toxic_comment_classification.commands command=baseline
 ```
-###Тренировка основной модели - textcnn
-``bash
-poetry run python -m toxic_comment_classification.commands command=textcnn 
+### Тренировка основной модели - textcnn
+```bash
+poetry run python -m toxic_comment_classification.commands command=textcnn
 ```
+
 
 
