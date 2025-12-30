@@ -12,9 +12,6 @@
 Источник: HuggingFace датасет  
 `thesofakillers/jigsaw-toxic-comment-classification-challenge`
 
-Шаги:
-git clone https://github.com/glavrenov124/toxic-comment-classification
-cd toxic-comment-classification
 
 ### 1. Клонирование репозитория
 ```bash
@@ -38,3 +35,4 @@ poetry run pre-commit run -a
 ```bash
 poetry run mlflow server
 ```
+
