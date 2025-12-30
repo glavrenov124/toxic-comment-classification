@@ -12,7 +12,7 @@
 Источник: HuggingFace датасет  
 `thesofakillers/jigsaw-toxic-comment-classification-challenge`
 
-##Инструкция по установке
+## Инструкция по установке
 ### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/glavrenov124/toxic-comment-classification
@@ -46,6 +46,7 @@ poetry run python -m toxic_comment_classification.commands command=baseline
 ```bash
 poetry run python -m toxic_comment_classification.commands command=textcnn
 ```
+
 
 
 
