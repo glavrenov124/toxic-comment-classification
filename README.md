@@ -11,6 +11,11 @@
 
 Источник: HuggingFace датасет  
 `thesofakillers/jigsaw-toxic-comment-classification-challenge`
+## Models
+В репозитории реализованы две модели: (1) **Baseline**: TF-IDF (1–2 word ngrams) + One-Vs-Rest Logistic Regression; (2) **TextCNN (основная)**: сверточная модель на **PyTorch Lightning**, выдаёт 6 логитов по числу классов.
+
+## Metrics
+Логируются основные метрики: **ROC-AUC (macro)**, **F1 (micro)**, **F1 (macro)**, а также **AUC по каждому классу** (когда возможно посчитать на сплите).
 
 ## Инструкция по установке
 ### 1. Клонирование репозитория
@@ -46,6 +51,7 @@ poetry run python -m toxic_comment_classification.commands command=baseline
 ```bash
 poetry run python -m toxic_comment_classification.commands command=textcnn
 ```
+
 
 
 
